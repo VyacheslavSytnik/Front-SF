@@ -1,3 +1,11 @@
+body {
+    margin: 0;
+    font-family: nunito sans, 'Times New Roman', Times, serif;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
 .button {
     background: #E3B873;
     box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
@@ -8,6 +16,19 @@
     color: white;
     text-transform: uppercase;
     }
+.header {
+    background-color: #131313;
+    
+}
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 37px;
+    height: 83px;
+    align-items: center;
+    
+
+}
 .headerNav {
     list-style: none;
     display: flex;
@@ -33,4 +54,5 @@
     text-align: right;
     text-decoration-line: underline;
     color: #E3B873;
+    text-size-adjust: 30px;
     }
