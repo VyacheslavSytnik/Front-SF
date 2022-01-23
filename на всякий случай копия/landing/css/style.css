@@ -68,20 +68,20 @@ body * {
     height: 83px;
     align-items: center;
     color: #FFFFFF;
-}
-.header-content-2 {
-    display: flex;
-    justify-content: flex-end;
     
+
 }
 .headerNav {
     list-style: none;
     display: flex;
+    color: #FFFFFF;
     font-family: 'Nunito Sans';
     font-style: normal;
     font-weight: normal;
     font-size: 11px;
-    line-height: 15px; 
+    line-height: 15px;
+
+color: #FFFFFF;
 }
 .headerNav_item {
     margin-right: 47px;
@@ -118,6 +118,7 @@ body * {
         position: relative;
     }
 .hero-overlay {
+        /* content: ; */
         position: absolute;
         top: 0;
         left: 0;
@@ -156,28 +157,3 @@ color: #FFFFFF;
         text-transform: uppercase;
         color: #E3B873;
     }
-.projects {
-    background-color: black;
-}
-.description {
-    font-family: Nunito Sans;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 27px;
-    color: #FFFFFF;
-}
-.container_projects {
-    font-family: Nunito Sans;
-}
-.container_not_photo {
-    width: 500px;
-    height: 500px;
-}
-.photo2 {
-    display: flex;
-    justify-content: right;
-    height: 482px;
-    width: 679px;
-
-}
