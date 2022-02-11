@@ -1,6 +1,6 @@
 @font-face {
     src: url(../fonts/NunitoSans-Regular.ttf);
-    font-family: 'Nunito Sans';
+    font-family: "Nunito Sans";
 }
 @font-face {
     src: url(../fonts/NunitoSans-Italic.ttf);
@@ -16,7 +16,7 @@
 }
 body {
     margin: 0;
-    font-family: 'Nunito Sans', 'Times New Roman', Times, serif;
+    font-family: "Nunito Sans", "Times New Roman", Times, serif;
 }
 body * {
     box-sizing: border-box;
@@ -59,6 +59,9 @@ body * {
 }
 .header {
     background-color: #131313;
+    position: sticky;
+    top: 0;
+    z-index: 1;
     
 }
 .header-content {
@@ -72,6 +75,7 @@ body * {
 .header-content-2 {
     display: flex;
     justify-content: flex-end;
+    margin-right: 30px;
     
 }
 .headerNav {
@@ -160,7 +164,7 @@ color: #FFFFFF;
     background-color: black;
 }
 .description {
-    font-family: Nunito Sans;
+    font-family: 'Nunito Sans', 'Times New Roman', Times, serif;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -168,16 +172,108 @@ color: #FFFFFF;
     color: #FFFFFF;
 }
 .container_projects {
-    font-family: Nunito Sans;
-}
-.container_not_photo {
-    width: 500px;
-    height: 500px;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 .photo2 {
+    justify-content: flex-end;
+    max-height: 400px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+.container_photo {
     display: flex;
-    justify-content: right;
-    height: 482px;
-    width: 679px;
+    flex-wrap: wrap;
+}
+.container_not_photo {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 500px;
+
+}
+h3 {
+    font-family: Yeseva One;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 25px;
+text-transform: uppercase;
+
+color: #E3B873;
+}
+.projectsBlock3 {
+    display: grid;
+    flex-wrap: wrap;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+.projectsBlock4{
+    margin-right: 50px;
+}
+.somvol {
+    color: white;
+    margin-top: 10%;
+    word-spacing: 20px;
+    display: grid;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.somvol ::before {
+    content: url(../img/left.svg);
+    vertical-align: sub;
+    
+}
+.somvol ::after {
+    content: url(../img/right.svg);
+    vertical-align: sub;
+}
+.online {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 820px;
+}
+.camera {
+    color: white;
+    }
+.camera2 {
+        align-items: center;
+    }
+.camera2 ::before {
+    content: url(../img/Rectangle\ 6.7.svg);
+    vertical-align: top;
+}
+.camera2 ::after {
+    content: url(../img/Rectangle\ 6.7.svg);
+    vertical-align: top;
+}
+
+.section3 {
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+}
+.section4 {
+    background-color: white;
+    margin-top: -250px;
+    padding-top: 280px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+}
+.darkPhoto {
+    filter: brightness(30%);
+}
+.text {
+    padding: 0px 60px;
+    text-align:center;
+}
+.imput {
+    display: flex;
+   flex-direction: row;
+   margin-right: 10%;
 
 }
