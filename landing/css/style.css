@@ -61,7 +61,7 @@ body * {
     background-color: #131313;
     position: sticky;
     top: 0;
-    z-index: 1;
+    z-index: 2;
     
 }
 .header-content {
@@ -227,14 +227,20 @@ color: #E3B873;
     content: url(../img/right.svg);
     vertical-align: sub;
 }
-.online {
+.container_online {
     display: flex;
     flex-direction: column;
     align-items: center;
     max-width: 820px;
+    position: relative;
+    margin: 0 auto;
+    justify-content: space-between;
 }
 .camera {
     color: white;
+    display:flex;
+    flex-direction:column;
+    align-items:center; 
     }
 .camera2 {
         align-items: center;
@@ -255,6 +261,18 @@ color: #E3B873;
     flex-direction: column;
     align-content: center;
 }
+.video {
+    position:relative;
+}
+.play {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    clip-path: circle(26%);
+    padding-top: 1%;
+    
+}
 .section4 {
     background-color: white;
     margin-top: -250px;
@@ -263,6 +281,7 @@ color: #E3B873;
     flex-wrap: wrap;
     flex-direction: column;
     align-content: center;
+    
 }
 .darkPhoto {
     filter: brightness(30%);
@@ -274,6 +293,64 @@ color: #E3B873;
 .imput {
     display: flex;
    flex-direction: row;
-   margin-right: 10%;
+   align-items:end;
+   max-width: 800px;
+}
+.imput2 {
+    margin-right: 25px;
+   border-width: 0px 0px 1px 0px;
+   border-color: gba(54, 54, 54, 0.3);
+}
+.checkbox {
+    background: #E3B873;
+    border-radius: 1px;
+    border: 1.5px solid #FFFFFF;
 
+}
+.section5 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.color_black {
+    color: #131313 ;
+    font-weight: bold;
+}
+.types {
+    max-width: 1280px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+}
+.container_rapair {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
+}
+.rapair {
+    margin: 0px 10px;
+    position: relative;
+}
+.Redecorating {
+    background-color: white;
+    /* margin-top: -40%; */
+    top: 40px;
+    margin-left: 10%;
+    margin-right: 10%;  
+    position: relative; 
+    z-index: 3;
+}
+.Overhaul {
+    font-family: Nunito Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 27px;
+color: #959595;
+}
+.verhaul {
+    padding-left: 20px;
+    padding-top: 20px
 }
