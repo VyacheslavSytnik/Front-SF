@@ -302,12 +302,19 @@ color: #E3B873;
    border-color: gba(54, 54, 54, 0.3);
 }
 .checkbox {
-    background-color: #E3B873;
+    background: #E3B873;
+    border-radius: 1px;
+    border: 1.5px solid #FFFFFF;
+
 }
 .section5 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+}
+.color_black {
+    color: #131313 ;
+    font-weight: bold;
 }
 .types {
     max-width: 1280px;
@@ -319,7 +326,31 @@ color: #E3B873;
 .container_rapair {
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
+    position: relative;
 }
 .rapair {
-    margin: 0 10px;
+    margin: 0px 10px;
+    position: relative;
+}
+.Redecorating {
+    background-color: white;
+    /* margin-top: -40%; */
+    top: 40px;
+    margin-left: 10%;
+    margin-right: 10%;  
+    position: relative; 
+    z-index: 3;
+}
+.Overhaul {
+    font-family: Nunito Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 27px;
+color: #959595;
+}
+.verhaul {
+    padding-left: 20px;
+    padding-top: 20px
 }
