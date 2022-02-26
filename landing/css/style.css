@@ -61,7 +61,7 @@ body * {
     background-color: #131313;
     position: sticky;
     top: 0;
-    z-index: 2;
+    z-index: 4;
     
 }
 .header-content {
@@ -296,6 +296,11 @@ color: #E3B873;
    align-items:end;
    max-width: 800px;
 }
+.imputblack {
+    display: flex;
+    flex-direction: column;
+
+}
 .imput2 {
     margin-right: 25px;
    border-width: 0px 0px 1px 0px;
@@ -417,13 +422,22 @@ color: #E3B873;
   }
   .section6 {
       background-color: white;
+      margin-top: 100px;
+  }
+  .three {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: space-evenly;
+    align-items: baseline;
   }
   .four {
     background-image: url(../img/image6.1.jpg);
     position: relative;
     background-size: cover;
-    height: 1000px;
-    max-width: 650px;
+    height: 645px;
+    display: flex;
+    flex-wrap: wrap;
   }
   .five {
       position: relative;
@@ -431,4 +445,9 @@ color: #E3B873;
       display: flex;
       flex-direction: column;
       justify-content: space-around;
+  }
+  .formsblack {
+      background-color: #131313;
+      color: white;
+      padding: 30px 50px;
   }
