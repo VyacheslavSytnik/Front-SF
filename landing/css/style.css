@@ -335,20 +335,19 @@ color: #E3B873;
 }
 .Redecorating {
     background-color: white;
-    /* margin-top: -40%; */
-    top: 40px;
+    margin-top: -40%;
     margin-left: 10%;
     margin-right: 10%;  
     position: relative; 
     z-index: 3;
 }
 .Overhaul {
-    font-family: Nunito Sans;
-font-style: normal;
-font-weight: normal;
-font-size: 13px;
-line-height: 27px;
-color: #959595;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 27px;
+    color: #959595;
 }
 .verhaul {
     padding-left: 20px;
@@ -415,4 +414,21 @@ color: #959595;
     stroke-width: 2.5;
     stroke-linecap: round;
     stroke-linejoin: round;
+  }
+  .section6 {
+      background-color: white;
+  }
+  .four {
+    background-image: url(../img/image6.1.jpg);
+    position: relative;
+    background-size: cover;
+    height: 1000px;
+    max-width: 650px;
+  }
+  .five {
+      position: relative;
+      z-index: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
   }
